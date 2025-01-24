@@ -1,0 +1,1148 @@
+[
+  {
+    "name": "一孔之见",
+    "tag": "offense",
+    "color": "blue",
+    "info": "每0.75秒，你的瞄具将获得5%弱\n点伤害（最多叠加3层）\n+50%瞄准速度\n-5%伤害抗性"
+  },
+  {
+    "name": "丑丑纪念品收集",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "队伍效果\n增加环境中可供收集额外补给点数的\n纪念品数量。\n这张卡片在\"蠕虫试练\"中不会生成任\n何纪念品"
+  },
+  {
+    "name": "为你打气",
+    "tag": "defense",
+    "color": "blue",
+    "info": "你的临时生命值衰减速度减缓\n20%\n每张地图都会生成1个额外的止\n痛药。\n+5%生命值"
+  },
+  {
+    "name": "为殒落者报仇",
+    "tag": "offense",
+    "color": "red",
+    "info": "队伍效果\n当你或一名队友被致残时，所有队友\n获得30%的伤害，20%的装填速度\n和无限弹药达10秒。"
+  },
+  {
+    "name": "亮枪",
+    "tag": "utility",
+    "color": "blue",
+    "info": "+50%武器切换速度\n5%伤害抗性"
+  },
+  {
+    "name": "人工智能辅助组件",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "5%物品重复使用机率在每使用\n个物品后增加10%。重复使用时\n重置。\n配件消耗：20\n替换：快速型栏位，脆弱"
+  },
+  {
+    "name": "以太炸弹",
+    "tag": "offense",
+    "color": "green",
+    "info": "释放出一种瓦斯，将灾变者吸引\n至自身，持续7秒，但也会使你\n的移动速度降低50%。\n装备消耗：50三\n替换：支援型栏位"
+  },
+  {
+    "name": "休息充足",
+    "tag": "defense",
+    "color": "green",
+    "info": "队伍效果\n+20%队伍过度治疗\n+5%队伍治疗效能"
+  },
+  {
+    "name": "众人所需",
+    "tag": "defense",
+    "color": "red",
+    "info": "10%生命值\n队伍效果\n+1个队伍额外续命次数"
+  },
+  {
+    "name": "优越心肺力",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+20%耐力\n+20%冲刺效能\n+5点生命值"
+  },
+  {
+    "name": "保镖",
+    "tag": "defense",
+    "color": "green",
+    "info": "当5米内的队友受到攻击时，你\n将分摊该伤害的75%。\n可以每5秒触发一次。"
+  },
+  {
+    "name": "先锋",
+    "tag": "defense",
+    "color": "red",
+    "info": "近战击杀可为自己和10米以内的\n队友治疗1点生命值。"
+  },
+  {
+    "name": "光学爱好者",
+    "tag": "offense",
+    "color": "red",
+    "info": "+30%准确度"
+  },
+  {
+    "name": "兴奋剂",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "你所给予的止痛药同时可给予\n+20%耐力恢复、+15%装填速\n度，以及+15%武器切换速度达\n60秒。"
+  },
+  {
+    "name": "冷酿咖啡",
+    "tag": "mobility",
+    "color": "red",
+    "info": "+15%装填速度\n+25%瞄准速度\n+25%武器切换速度\n+25%使用速度"
+  },
+  {
+    "name": "准星焦点",
+    "tag": "offense",
+    "color": "red",
+    "info": "+20%准确度\n+10%弱点伤害\n+15%瞄准速度\n+15%后座力控制"
+  },
+  {
+    "name": "分享财富",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "队伍效果\n在每关开始时，每名队友获得100个\n额外的铜币。"
+  },
+  {
+    "name": "前蹲",
+    "tag": "defense",
+    "color": "red",
+    "info": "蹲伏时，你既不会造成也不会受\n到误伤。\n+10点生命值"
+  },
+  {
+    "name": "力之击",
+    "tag": "offense",
+    "color": "green",
+    "info": "每3秒，获得+10推击伤害，累加\n最多达10次。所有累加的充能都\n会在使用时消耗。"
+  },
+  {
+    "name": "加强型突击",
+    "tag": "offense",
+    "color": "green",
+    "info": "在你杀死一个突变者后，你对突\n变者的下一次伤害将必定造成击\n倒。\n队伍效果\n+5%队伍击倒伤害"
+  },
+  {
+    "name": "劫犯",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "近战武器击杀有5%的几率生成弹\n药，铁丝网或捕熊陷阱。"
+  },
+  {
+    "name": "化学胆量",
+    "tag": "offense",
+    "color": "green",
+    "info": "你应用的止痛药同时可获得\n+25%的伤害达60秒。"
+  },
+  {
+    "name": "医学专家",
+    "tag": "defense",
+    "color": "blue",
+    "info": "+50%复活速度\n当你使用医疗配件时，它还会为\n目标治疗1外伤。\n队伍效果\n+15%治疗效能"
+  },
+  {
+    "name": "医疗专业",
+    "tag": "defense",
+    "color": "red",
+    "info": "除颤器和急救柜还可额外治疗10\n点外伤伤害及1个额外续命次数\n（若可用）。"
+  },
+  {
+    "name": "单肩包",
+    "tag": "defense",
+    "color": "yellow",
+    "info": "2支援型库存"
+  },
+  {
+    "name": "危险品专家",
+    "tag": "utility",
+    "color": "red",
+    "info": "+35%酸液抗性\n你的诱饵罐会对目标造成直接伤\n害并且可以击中弱点。\n队伍效果\n杀死被诱饵覆盖的突变者将有75%几\n率再生成另一个诱饵罐"
+  },
+  {
+    "name": "危险津贴",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "在每关开始时获得250个额外的铜\n币。"
+  },
+  {
+    "name": "即兴炸药",
+    "tag": "offense",
+    "color": "green",
+    "info": "+75%配件伤害\n－25%切换速度"
+  },
+  {
+    "name": "压制火力",
+    "tag": "offense",
+    "color": "blue",
+    "info": "使用轻机枪和狙击枪对灾变者造\n成伤害时，有40%的几率对目标\n附近的灾变者造成50%的缓速，\n效果持续5秒。"
+  },
+  {
+    "name": "厚颜",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+15%近战耐力效能\n+20%近战攻击速度\n+15%弓箭耐力效能\n+20%弓箭攻击速度"
+  },
+  {
+    "name": "双手榴弹袋",
+    "tag": "offense",
+    "color": "yellow",
+    "info": "+2进攻型库存"
+  },
+  {
+    "name": "受控移动",
+    "tag": "mobility",
+    "color": "red",
+    "info": "当使用狙击步枪的瞄具时\n+40%移动速度。"
+  },
+  {
+    "name": "各就各位",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "队伍效果\n触发户群时，你的队伍恢复7.5%弹\n药，并在30秒内获得10%开枪时的\n移动速度、15%装填速度，以及25%\n切换速度。"
+  },
+  {
+    "name": "嗅盐",
+    "tag": "utility",
+    "color": "blue",
+    "info": "0.3mAMMONIAINHALANT\nNRATORYLSTEM\nHERRO\n200%复活速度"
+  },
+  {
+    "name": "团体治疗",
+    "tag": "defense",
+    "color": "red",
+    "info": "当你使用医疗配件时，所有队友\n可治疗8点生命值。"
+  },
+  {
+    "name": "地狱火",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+45%射击时的移动速度。\n+3%非射击时的移动速度。"
+  },
+  {
+    "name": "垫料大衣",
+    "tag": "defense",
+    "color": "red",
+    "info": "+10%伤害抗性\n+5点生命值\n-20%耐力效能"
+  },
+  {
+    "name": "声波干扰器",
+    "tag": "defense",
+    "color": "red",
+    "info": "产生一个脉冲，对附近敌人造成\n剧烈击倒伤害，并有几率破坏敌\n人的护甲。\n配件消耗：75\n替代：进攻型栏位"
+  },
+  {
+    "name": "复利",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "队伍效果\n每个清理者将在每个安全室获得5%\n的总铜币数。"
+  },
+  {
+    "name": "多余小袋",
+    "tag": "offense",
+    "color": "yellow",
+    "info": "5%生命值\n队伍效果\n+1队伍进攻型库存"
+  },
+  {
+    "name": "多功能工具",
+    "tag": "utility",
+    "color": "blue",
+    "info": "+75%使用速度\n- 5%伤害抗性"
+  },
+  {
+    "name": "大口径之弹",
+    "tag": "offense",
+    "color": "red",
+    "info": "+7.5%子弹伤害\n+200%子弹穿透力"
+  },
+  {
+    "name": "天生冲刺者",
+    "tag": "mobility",
+    "color": "red",
+    "info": "+100%耐力恢复\n：50%最大耐力"
+  },
+  {
+    "name": "头带放大镜",
+    "tag": "utility",
+    "color": "blue",
+    "info": "+125%使用速度\n当你承受伤害时，有可能变盲达\n1秒。"
+  },
+  {
+    "name": "奇迹恢复",
+    "tag": "defense",
+    "color": "blue",
+    "info": "当你使用医疗配件时，有25%的\n几率使效果提升100%。"
+  },
+  {
+    "name": "奥运冲刺者",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+30%冲刺效能\n·7%伤害抗性"
+  },
+  {
+    "name": "安全室恢复",
+    "tag": "defense",
+    "color": "yellow",
+    "info": "你的队伍会在每个关卡开始时恢\n复15点生命值，7点外伤伤害\n并补充10%弹药。"
+  },
+  {
+    "name": "实用拾荒者",
+    "tag": "utility",
+    "color": "blue",
+    "info": "你可侦测到附近的快捷配件。\n生成更多快捷配件。"
+  },
+  {
+    "name": "实用腰带",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "+2快捷栏位库存"
+  },
+  {
+    "name": "实验型兴奋剂",
+    "tag": "offense",
+    "color": "blue",
+    "info": "产生烟雾获得20%伤害和30%\n重新装填速度。\n配件消耗：40三\n替换：支援型栏位"
+  },
+  {
+    "name": "实验型电击枪",
+    "tag": "utility",
+    "color": "red",
+    "info": "增强推击以击晕附近的敌人。在\n10秒后刷新。\n配件消耗：30\n替换：快速型栏位，脆弱"
+  },
+  {
+    "name": "宽厚之魂",
+    "tag": "defense",
+    "color": "red",
+    "info": "治疗一名队友同时对自身施加治\n疗量50%的治疗。"
+  },
+  {
+    "name": "宽口麦格威尔",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+30%装填速度\n- 5%伤害抗性"
+  },
+  {
+    "name": "射他们个满身枪弹",
+    "tag": "offense",
+    "color": "blue",
+    "info": "射击时，每0.25秒获得1%伤\n害，1%射速，以及5%武器切\n换。最大增益数为20。"
+  },
+  {
+    "name": "射击手套",
+    "tag": "utility",
+    "color": "blue",
+    "info": "+25%武器切换速度\n+15%后座力控制\n+15%准确度"
+  },
+  {
+    "name": "小心手雷！",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "当你投掷一个进攻型配件时，获\n得20点临时生命值和25%的冲刺\n速度达5秒。"
+  },
+  {
+    "name": "尖端",
+    "tag": "offense",
+    "color": "green",
+    "info": "+15近战伤害\n+20%使用近战武器时的伤害抗\n性\n：15%弹药容量"
+  },
+  {
+    "name": "工具腰带",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "：10%生命值\n队伍效果\n+1队伍快捷栏位库存"
+  },
+  {
+    "name": "已过期T5",
+    "tag": "offense",
+    "color": "red",
+    "info": "制造一个强大的爆炸，对弱点造\n成20点火焰伤害。初始爆炸后\n还可继续每秒造成1伤害，持续7\n秒。\n配件消耗：75=\n替换：支援型栏位"
+  },
+  {
+    "name": "幸运儿",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "每当你或你的队伍搜刮铜币时，\n你就有35%的几率找到额外100%\n的铜币。"
+  },
+  {
+    "name": "库存袋",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+30%狙击枪弹药容量\n+10%狙击步枪的伤害"
+  },
+  {
+    "name": "废土主厨",
+    "tag": "utility",
+    "color": "red",
+    "info": "获得通过近战攻击食物道具来做\n出美味晚餐或平庸膳食。使用战\n斗刀会增加你做出美味晚餐的几\n率。"
+  },
+  {
+    "name": "弹匣夹",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+50%装填速度\n禁用：瞄具"
+  },
+  {
+    "name": "弹匣袋",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+30%手枪/冲锋枪弹药容量\n+10%手枪和冲锋枪的伤害"
+  },
+  {
+    "name": "弹药包",
+    "tag": "offense",
+    "color": "red",
+    "info": "+75%弹药容量\n5%移动速度"
+  },
+  {
+    "name": "弹药拾荒者",
+    "tag": "utility",
+    "color": "red",
+    "info": "你可侦测到附近的弹药。\n生成一个额外的弹药箱。"
+  },
+  {
+    "name": "弹药满满",
+    "tag": "offense",
+    "color": "red",
+    "info": "队伍效果\n+10%队伍弹药容量\n+3.5%队伍伤害"
+  },
+  {
+    "name": "弹药皮带",
+    "tag": "offense",
+    "color": "red",
+    "info": "+50%弹药容量\n：15%装填速度"
+  },
+  {
+    "name": "弹药袋",
+    "tag": "offense",
+    "color": "red",
+    "info": "+25%弹药容量\n+2.5%子弹伤害"
+  },
+  {
+    "name": "弹药贮藏",
+    "tag": "offense",
+    "color": "yellow",
+    "info": "你的副武器有无限的弹药。\n你的副武器装填速度会慢20%"
+  },
+  {
+    "name": "强击手",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+5%生命值\n+10%近战耐力效能\n+20%近战攻击速度\n+10%弓箭耐力效能\n+20%弓箭攻击速度"
+  },
+  {
+    "name": "必要特训",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "队伍效果\n+10%队伍耐力\n+10%队伍耐力恢复"
+  },
+  {
+    "name": "快速杀手",
+    "tag": "offense",
+    "color": "red",
+    "info": "+50%准确度\n禁用：瞄具"
+  },
+  {
+    "name": "感觉非常良好",
+    "tag": "defense",
+    "color": "green",
+    "info": "Alleghen\n队伍效果\n+20%队伍援助的生命值\n+5队伍生命值"
+  },
+  {
+    "name": "战地医生",
+    "tag": "defense",
+    "color": "red",
+    "info": "当你使用医疗配件时，它还会为\n目标治疗3外伤。"
+  },
+  {
+    "name": "战斗医者",
+    "tag": "defense",
+    "color": "blue",
+    "info": "+50%使用速度\n在复活队友时，为其额外恢复20\n点生命值。"
+  },
+  {
+    "name": "战斗小刀",
+    "tag": "offense",
+    "color": "red",
+    "info": "将你的推击变为一把算作近战武\n器的小刀。"
+  },
+  {
+    "name": "战斗欲望",
+    "tag": "defense",
+    "color": "green",
+    "info": "近战击杀可治疗1点生命值和\n0.125点外伤。"
+  },
+  {
+    "name": "战斗训练",
+    "tag": "offense",
+    "color": "red",
+    "info": "+5%子弹伤害\n+1.5子弹击倒伤害\n+7.5近战击倒伤害"
+  },
+  {
+    "name": "战术背心",
+    "tag": "offense",
+    "color": "red",
+    "info": "+30%步枪弹药容量\n+10%突击步枪和轻机枪的伤害"
+  },
+  {
+    "name": "手榴弹袋",
+    "tag": "offense",
+    "color": "yellow",
+    "info": "+1进攻型库存\n+25%切换速度\n5%进攻型库存消耗"
+  },
+  {
+    "name": "手榴弹训练",
+    "tag": "offense",
+    "color": "green",
+    "info": "+25%配件伤害"
+  },
+  {
+    "name": "扳机控制",
+    "tag": "offense",
+    "color": "red",
+    "info": "使用枪械的精准击杀可授予\n+0.5%准确度，直到关卡结束为\n止。"
+  },
+  {
+    "name": "抗菌药膏",
+    "tag": "defense",
+    "color": "red",
+    "info": "+25%治疗效能\n当你使用医疗配件时，目标治疗\n20临时生命值"
+  },
+  {
+    "name": "拆弹专家",
+    "tag": "offense",
+    "color": "green",
+    "info": "+50%配件伤害\n-15%弹药容量"
+  },
+  {
+    "name": "拆弹小组",
+    "tag": "offense",
+    "color": "green",
+    "info": "每张地图都会生成1个额外的破\n片手榴弹。\n队伍效果\n+25%队伍爆炸物伤害\n+20%队伍爆炸物抗性"
+  },
+  {
+    "name": "拦路者",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "副武器击杀有5%的几率生成弹\n药，燃烧瓶或诱饵罐。"
+  },
+  {
+    "name": "挣脱",
+    "tag": "utility",
+    "color": "blue",
+    "info": "挣脱：按住\nE\n来使你自己从抓\n取中挣脱。\n+50%挣脱冷却缩减。（基础60\n秒）。"
+  },
+  {
+    "name": "掩护射击",
+    "tag": "defense",
+    "color": "green",
+    "info": "在15米以外的击杀，可给予在目\n标15米之内的队友5点临时生命\n值。"
+  },
+  {
+    "name": "摩托车外套",
+    "tag": "defense",
+    "color": "red",
+    "info": "+5%伤害抗性\n+5点生命值"
+  },
+  {
+    "name": "摩托车头盔",
+    "tag": "defense",
+    "color": "red",
+    "info": "+15%伤害抗性\n+10点生命值\n禁用：瞄具"
+  },
+  {
+    "name": "支援型拾荒者",
+    "tag": "utility",
+    "color": "red",
+    "info": "你可侦测到附近的支援型配件。\n生成更多支援型配件。"
+  },
+  {
+    "name": "救护员袋",
+    "tag": "defense",
+    "color": "red",
+    "info": "+50%治疗效能"
+  },
+  {
+    "name": "散弹携行袋",
+    "tag": "offense",
+    "color": "yellow",
+    "info": "+30%霰弹枪弹药容量\n+10%露弹枪的伤害"
+  },
+  {
+    "name": "散弹枪技能",
+    "tag": "offense",
+    "color": "red",
+    "info": "+40%弹枪的装填速度。"
+  },
+  {
+    "name": "散弹粉碎者",
+    "tag": "defense",
+    "color": "green",
+    "info": "使用霰弹枪时，每发命中的弹丸\n可给予0.25临时生命值。"
+  },
+  {
+    "name": "整治",
+    "tag": "offense",
+    "color": "green",
+    "info": "+10%有效子弹范围\n+15%后座力控制\n+25%子弹穿透力\n+25%瞄准速度"
+  },
+  {
+    "name": "断开",
+    "tag": "offense",
+    "color": "green",
+    "info": "近战命中可使目标承受3%额外伤\n害，最多可增加15%伤害。\n摧毁护甲的近战命中，将有几率\n制造可使用的临时护甲。"
+  },
+  {
+    "name": "新绷带",
+    "tag": "defense",
+    "color": "green",
+    "info": "在每个关卡开始时，恢复15的外\n伤伤害，然后恢复所失去的生命\n值。"
+  },
+  {
+    "name": "施虐者",
+    "tag": "defense",
+    "color": "green",
+    "info": "当15米内的队友受到5或更多伤\n害时，可将20%的伤害转化为临\n时生命值。\n每秒只能触发一次。"
+  },
+  {
+    "name": "无人机感应器",
+    "tag": "utility",
+    "color": "green",
+    "info": "每7秒会标注附近的突变者。在\n激活时会有20%几率消除伤害。\n配件消耗：20\n替代：快捷栏位，脆弱的"
+  },
+  {
+    "name": "无视伤痛",
+    "tag": "defense",
+    "color": "green",
+    "info": "对突变者的近战伤害+20%\n当你对突变者造成近战伤害时\n可恢复2点生命值，并恢复3点耐\n力。"
+  },
+  {
+    "name": "最佳状态",
+    "tag": "offense",
+    "color": "red",
+    "info": "精准击杀给予5%的装填速度达5\n秒（最多可叠加10次）。"
+  },
+  {
+    "name": "有备无患",
+    "tag": "offense",
+    "color": "green",
+    "info": "你可在副武器栏位中装备主武\n器。\n25%切换速度"
+  },
+  {
+    "name": "有害频率",
+    "tag": "defense",
+    "color": "red",
+    "info": "为附近的队友减少1的伤害，持\n续7秒。\n配件消耗：30\n替换：进攻型栏位"
+  },
+  {
+    "name": "木护甲",
+    "tag": "defense",
+    "color": "green",
+    "info": "+30%外伤抗性\n-100%火焰抗性"
+  },
+  {
+    "name": "杀手本能",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+30%弱点伤害\n禁用：瞄具"
+  },
+  {
+    "name": "极度专注",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+50%弱点伤害\n40%射击或近战攻击时的移动\n速度。"
+  },
+  {
+    "name": "极度兴奋",
+    "tag": "defense",
+    "color": "red",
+    "info": "队伍效果\n触发户群时，你的队伍恢复20生命\n值。"
+  },
+  {
+    "name": "武器匠人",
+    "tag": "utility",
+    "color": "red",
+    "info": "获得在安全室外拧开武器挂件的\n能力。拧开挂件需要花费400铜\n币。\n队伍效果\n再次使用“武器匠人“的能力时，可将\n其成本降低100铜币。"
+  },
+  {
+    "name": "武器拾荒者",
+    "tag": "utility",
+    "color": "red",
+    "info": "你可侦测到附近的武器。\n生成更多武器。"
+  },
+  {
+    "name": "死亡标记",
+    "tag": "utility",
+    "color": "red",
+    "info": "你标注的突变者被高亮而且你的\n队伍对高亮的敌人造成的伤害增\n加10%。"
+  },
+  {
+    "name": "残酷成性",
+    "tag": "offense",
+    "color": "blue",
+    "info": "每次精准击杀都会使弱点伤害提\n升5%，持续10秒。"
+  },
+  {
+    "name": "水袋",
+    "tag": "defense",
+    "color": "green",
+    "info": "+35点生命值\n－15%弹药容量"
+  },
+  {
+    "name": "涤罪之焰",
+    "tag": "utility",
+    "color": "green",
+    "info": "自身着火时每秒获得叠加的+5%\n伤害抗性，最多可叠加5层，持\n续15秒\n火焰会消除大多数负面状态效\n果。\n+40%火焰抗性。"
+  },
+  {
+    "name": "滚雷",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "使用弹枪射击时+35%的移动\n速度。\n+10%露弹枪伤害。"
+  },
+  {
+    "name": "激励演讲",
+    "tag": "utility",
+    "color": "blue",
+    "info": "队伍效果\n队友在被复活时，额外恢复10点生命\n值\n+50%队伍复活速度\n+10%队伍减少的致残外伤"
+  },
+  {
+    "name": "激励牺牲",
+    "tag": "defense",
+    "color": "red",
+    "info": "队伍效果\n当你或一名队友被致残时，则所有队\n友在10秒内可恢复20点生命值。"
+  },
+  {
+    "name": "火属性",
+    "tag": "offense",
+    "color": "green",
+    "info": "+100%火焰伤害。\n每次火焰击杀可给予你3点临时\n生命值。\n你可以感应到附近的易燃物件。"
+  },
+  {
+    "name": "灾变者杀手",
+    "tag": "offense",
+    "color": "blue",
+    "info": "20%弱点伤害"
+  },
+  {
+    "name": "熟练救护员",
+    "tag": "defense",
+    "color": "red",
+    "info": "当你使用医疗配件时，目标获得\n+10%最大生命值、耐力及耐力\n恢复，直到关卡结束为止。"
+  },
+  {
+    "name": "狂战士",
+    "tag": "offense",
+    "color": "green",
+    "info": "每次近战击杀可赋予5%近战伤\n害、5%近战速度，以及5%移动\n速度达4秒。"
+  },
+  {
+    "name": "猛烈秤击",
+    "tag": "offense",
+    "color": "green",
+    "info": "精准击杀有20%的几率使灾变者\n爆炸，对4米内的其他灾变者造\n成15点伤害。"
+  },
+  {
+    "name": "玻璃大炮",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+25%伤害\n30%生命值"
+  },
+  {
+    "name": "生命保险",
+    "tag": "defense",
+    "color": "yellow",
+    "info": "+2个额外续命次数\n队伍效果\n+10%所减少的致残外伤"
+  },
+  {
+    "name": "疤痕组织",
+    "tag": "defense",
+    "color": "green",
+    "info": "所有来自灾变者伤害减少1\n+50%酸液抗性"
+  },
+  {
+    "name": "疯狂冲刺",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+20%冲刺速度\n40%冲刺耐力效能"
+  },
+  {
+    "name": "疯脑",
+    "tag": "offense",
+    "color": "blue",
+    "info": "每次近战挥击可获得5%近战速度\n及5%近战耐力效能达6秒，最多\n可叠加10次。\n你的近战攻击将不再苦于对付棘\n手的敌人。\n禁用：瞄具"
+  },
+  {
+    "name": "皮纳塔",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "在装有配件的情况下击杀灾变\n者，便有10%的几率掉落配件。"
+  },
+  {
+    "name": "真实勇气",
+    "tag": "defense",
+    "color": "green",
+    "info": "当你受到15点或以上的单次伤害\n时，可在5秒内逐渐恢复10点生\n命值。"
+  },
+  {
+    "name": "知识就是力量",
+    "tag": "utility",
+    "color": "red",
+    "info": "+10%弱点伤害\n允许玩家看到他们造成的伤害值\n和敌人的生命条。"
+  },
+  {
+    "name": "短跑",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+5%移动速度\n+5%冲刺速度"
+  },
+  {
+    "name": "磷尖弹",
+    "tag": "offense",
+    "color": "red",
+    "info": "持续开火会使点燃目标的几率不\n断增加。"
+  },
+  {
+    "name": "稳定瞄准",
+    "tag": "offense",
+    "color": "blue",
+    "info": "每0.75秒，你的瞄具便获得10%\n后座力控制（最多累加3次）。\n+80%瞄准速度\n-50%瞄具移动速度"
+  },
+  {
+    "name": "第二次机会",
+    "tag": "defense",
+    "color": "green",
+    "info": "+1个额外续命次数\n+15点生命值\n+25%失血抗性"
+  },
+  {
+    "name": "管理重载",
+    "tag": "offense",
+    "color": "yellow",
+    "info": "当你存放你的武器时，它会装\n填。"
+  },
+  {
+    "name": "箱式包",
+    "tag": "defense",
+    "color": "yellow",
+    "info": "：10%生命值\n队伍效果\n+1队伍支援型库存"
+  },
+  {
+    "name": "精神喊话",
+    "tag": "utility",
+    "color": "blue",
+    "info": "复活队友时，受到来自任何灾变\n者的伤害降低3。\n当你将队友复活时，为其额外恢\n复10生命值。"
+  },
+  {
+    "name": "绞碎者",
+    "tag": "offense",
+    "color": "blue",
+    "info": "每一次子弹击中都会使目标在3秒\n内受到1%额外伤害（可叠加最多\n至15%）。"
+  },
+  {
+    "name": "绞肉机",
+    "tag": "offense",
+    "color": "red",
+    "info": "当使用轻机枪并蹲伏时，可获得\n30%的移动速度和准确度。"
+  },
+  {
+    "name": "维他命",
+    "tag": "defense",
+    "color": "green",
+    "info": "+25点生命值"
+  },
+  {
+    "name": "综合训练",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+20%耐力\n+20%耐力恢复\n+3%移动速度\n+5点生命值"
+  },
+  {
+    "name": "罐装食品",
+    "tag": "defense",
+    "color": "green",
+    "info": "+45点生命值\n-25%耐力"
+  },
+  {
+    "name": "耐心猎手",
+    "tag": "offense",
+    "color": "red",
+    "info": "每0.75秒，你的瞄具便提升你的\n伤害达10%（最多累加3次）。"
+  },
+  {
+    "name": "耐用",
+    "tag": "defense",
+    "color": "green",
+    "info": "+15%外伤抗性\n+10点生命值\n+20火焰抗性"
+  },
+  {
+    "name": "肾上腺素",
+    "tag": "offense",
+    "color": "blue",
+    "info": "当你击杀一名敌人时，立即获得5\n耐力，并于7秒内获得额外的7\n耐力，最多可叠加5次。"
+  },
+  {
+    "name": "能量交换",
+    "tag": "offense",
+    "color": "blue",
+    "info": "当弹药快空时，在1秒内更换武\n器，将获得+20%的伤害达5秒，"
+  },
+  {
+    "name": "能量棒",
+    "tag": "mobility",
+    "color": "red",
+    "info": "ENR\n+30%耐力恢复\n+5点生命值"
+  },
+  {
+    "name": "能量装填",
+    "tag": "offense",
+    "color": "red",
+    "info": "在1秒内装填一把弹药快空了的\n枪，将会增加弹匣30%的容量\n直到下次装填。"
+  },
+  {
+    "name": "能量饮料",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+15%耐力\n+25%武器切换速度\n+15%开枪时的移动速度\n+10%减速抗性"
+  },
+  {
+    "name": "腰包",
+    "tag": "defense",
+    "color": "yellow",
+    "info": "+1支援型库存\n+15%外伤抗性"
+  },
+  {
+    "name": "腰带扣",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "+1快捷栏位库存\n+10%使用速度"
+  },
+  {
+    "name": "自信杀手",
+    "tag": "offense",
+    "color": "green",
+    "info": "当你或你的队伍击杀突变者，获\n得1%伤害（最高达15%）直到关\n卡结束为止。"
+  },
+  {
+    "name": "自负",
+    "tag": "utility",
+    "color": "blue",
+    "info": "+75%武器切换速度\n当你受到伤害时，你的准确度降\n低达3秒。"
+  },
+  {
+    "name": "节奏呼吸",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+40%耐力"
+  },
+  {
+    "name": "药膏",
+    "tag": "defense",
+    "color": "red",
+    "info": "当你使用医疗配件时，目标在30\n秒内获得额外20点生命值的恢\n复。"
+  },
+  {
+    "name": "营养充足",
+    "tag": "defense",
+    "color": "green",
+    "info": "队伍效果\n+10队伍生命值"
+  },
+  {
+    "name": "虚张声势",
+    "tag": "defense",
+    "color": "green",
+    "info": "当15米内的队友受到外伤伤害\n时，该伤害的15%将转化为外伤\n生命值。"
+  },
+  {
+    "name": "螺丝刀",
+    "tag": "utility",
+    "color": "blue",
+    "info": "+50%使用速度\n+10%耐力"
+  },
+  {
+    "name": "负伤动物",
+    "tag": "defense",
+    "color": "yellow",
+    "info": "在生命值过低时击杀可恢复1点\n生命值。"
+  },
+  {
+    "name": "赏金猎人",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "当你或你的队伍击杀了一名突变\n者，获得10个铜币（每个关卡最\n多300个）。"
+  },
+  {
+    "name": "超音波创伤治疗",
+    "tag": "defense",
+    "color": "green",
+    "info": "在7秒内为附近的队友恢复6\n命值。\n配件消耗：60\n替换：进攻型栏位"
+  },
+  {
+    "name": "趾高气昂",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "精准击杀可让你获得8%移动速度\n达5秒。"
+  },
+  {
+    "name": "跑到飞",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+12%移动速度\n+15%冲刺速度\n当你受到伤害时，你会失去“跑到\n飞\"的增益达3秒。"
+  },
+  {
+    "name": "跑带枪",
+    "tag": "mobility",
+    "color": "yellow",
+    "info": "你可以在冲刺时射击。"
+  },
+  {
+    "name": "身体护甲",
+    "tag": "defense",
+    "color": "green",
+    "info": "20%外伤抗性"
+  },
+  {
+    "name": "软化",
+    "tag": "offense",
+    "color": "green",
+    "info": "近战命中会使目标造成的伤害减\n少3%，最多可减少15%伤害。"
+  },
+  {
+    "name": "轰轰烈烈地上路",
+    "tag": "offense",
+    "color": "green",
+    "info": "队伍效果\n当队友被致残或是死亡时，他们会放\n下一个点火的管状炸弹。"
+  },
+  {
+    "name": "过度保护",
+    "tag": "offense",
+    "color": "red",
+    "info": "当15米内的队友受到5或更多伤\n害时，可在5秒内增加20%伤\n害。"
+  },
+  {
+    "name": "进攻型拾荒者",
+    "tag": "utility",
+    "color": "green",
+    "info": "你可侦测到附近的进攻型配件。\n生成更多进攻型配件。"
+  },
+  {
+    "name": "逞凶好斗",
+    "tag": "offense",
+    "color": "yellow",
+    "info": "每次召唤户群时，能获得一次累\n加4%的伤害提升，最多累加6\n次。（每次召唤户群之间有30秒\n的冷却时间。）\n当清理者被致残或杀死时，累加\n次数将重设。"
+  },
+  {
+    "name": "速度恶魔",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "当使用冲锋枪时+4%移动速度。\n当使用冲锋枪时+35%装填速度。"
+  },
+  {
+    "name": "酒气冲天",
+    "tag": "offense",
+    "color": "green",
+    "info": "+40%近战伤害\n你的近战攻击可穿过敌人，并造\n成大范围伤害。"
+  },
+  {
+    "name": "重击手",
+    "tag": "offense",
+    "color": "green",
+    "info": "近战击中在首次命中时必定能击\n倒灾变者。该效果每个目标只能\n发生一次。"
+  },
+  {
+    "name": "重攻击",
+    "tag": "offense",
+    "color": "green",
+    "info": "使用近战武器时按\n进行重攻\n击。\n重攻击会造成100%额外伤害，并\n消耗50%额外耐力。"
+  },
+  {
+    "name": "重装钻头",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+20%装填速度\n+25%武器切换速度"
+  },
+  {
+    "name": "金钱至上",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "每当你的队伍搜刮铜币时，你可\n以获得3个额外铜币，最多25\n次。"
+  },
+  {
+    "name": "铜币拾荒者",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "你可侦测到附近的铜币。\n生成更多铜币堆。"
+  },
+  {
+    "name": "银弹",
+    "tag": "offense",
+    "color": "red",
+    "info": "+10%子弹伤害\n+15%有效子弹范围"
+  },
+  {
+    "name": "长期抗战",
+    "tag": "defense",
+    "color": "red",
+    "info": "蹲伏时，获得10%伤害抗性以及\n40%准确度。"
+  },
+  {
+    "name": "防守策略",
+    "tag": "defense",
+    "color": "green",
+    "info": "当你受到的打击大于15点伤害\n时，可获得25%的伤害抗性达3\n秒。"
+  },
+  {
+    "name": "隐秘通道",
+    "tag": "utility",
+    "color": "blue",
+    "info": "允许解除门警报、车辆警报和鸟\n类。如果你被打断，目标将触\n发。\n禁用：快捷栏位\n队伍效果\n每回成功可获得25个铜币。"
+  },
+  {
+    "name": "面对恐惧",
+    "tag": "defense",
+    "color": "green",
+    "info": "每当你在2.5米内击杀了一名灾变\n者，可治疗1点临时生命值。"
+  },
+  {
+    "name": "飞毛腿",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+8%移动速度"
+  },
+  {
+    "name": "食物清道夫",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "你可感知附近的食物道具。\n在世界中生成适量的食物道具。\n食物道具能恢复额外的3生命\n值。"
+  },
+  {
+    "name": "马拉松跑者",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "平移及后退无移动惩罚。"
+  },
+  {
+    "name": "高视角",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+30%瞄准速度\n+15%移动速度\n+15%开枪时的移动速度"
+  },
+  {
+    "name": "魔术师的学徒",
+    "tag": "utility",
+    "color": "yellow",
+    "info": "你拥有额外10%几率在不消耗配\n件的情况下使用它。"
+  },
+  {
+    "name": "鲁莽",
+    "tag": "mobility",
+    "color": "blue",
+    "info": "+40%冲刺效能\n当你在冲刺时受到伤害，你会失\n去全部耐力。"
+  },
+  {
+    "name": "鲁莽策略",
+    "tag": "offense",
+    "color": "blue",
+    "info": "+30%弱点伤害\n5%伤害抗性"
+  },
+  {
+    "name": "麻木",
+    "tag": "defense",
+    "color": "green",
+    "info": "在你有临时生命值时，可获得\n+10%伤害抗性。"
+  }
+]

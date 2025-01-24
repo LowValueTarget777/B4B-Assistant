@@ -1,0 +1,3 @@
+PySide6-Fluent-Widgets>=1.5.5
+rapidocr_openvino
+pywin32
