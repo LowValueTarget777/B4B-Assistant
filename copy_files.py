@@ -1,7 +1,11 @@
 import os
+import sys
 from pathlib import Path
 from shutil import copy, copytree
 from distutils.sysconfig import get_python_lib # type: ignore
+
+# 设置标准输出编码为utf-8
+sys.stdout.reconfigure(encoding='utf-8')
 
 def copy_appdata(src="AppData", dist_folder="build/main.dist"):
     """复制应用数据文件"""
@@ -71,13 +75,24 @@ def main():
         dist_folder = "build/main.dist"
         os.makedirs(dist_folder, exist_ok=True)
         
-        print("开始复制文件...")
+        try:
+            print("开始复制文件...")
+        except UnicodeEncodeError:
+            print("[INFO] Starting file copy...")
+            
         copy_appdata(dist_folder=dist_folder)
         copy_packages(dist_folder=dist_folder)
-        print("文件复制完成!")
+        
+        try:
+            print("文件复制完成!")
+        except UnicodeEncodeError:
+            print("[INFO] File copy completed!")
         
     except Exception as e:
-        print(f"错误: {e}")
+        try:
+            print(f"错误: {e}")
+        except UnicodeEncodeError:
+            print(f"Error: {e}")
         exit(1)
 
 if __name__ == "__main__":
