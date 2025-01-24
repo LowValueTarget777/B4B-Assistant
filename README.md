@@ -37,8 +37,8 @@ B4B Assistant 是一个 BACK 4 BLOOD(喋血复仇) 游戏的卡组管理工具�
 * [RapidOCR](https://github.com/RapidAI/RapidOCR) - 高效的 OCR 识别引擎
 
 ## 软件截图
-
-[此处将展示软件界面截图]
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## 版本更新日志
 
