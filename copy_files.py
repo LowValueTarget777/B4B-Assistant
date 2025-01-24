@@ -15,7 +15,7 @@ def copy_appdata(src="AppData", dist_folder="build/main.dist"):
     src_path = os.path.join(os.getcwd(), src)
     dst_path = os.path.join(os.getcwd(), dist_folder, src)
 
-    print(f"Copying application data from {src_path} to {dst_path}")
+
     if os.path.exists(src_path):
         copytree(src_path, dst_path, ignore=ignore_files, dirs_exist_ok=True)
 
@@ -47,52 +47,50 @@ def copy_packages(dist_folder="build/main.dist"):
     for package in copied_site_packages:
         src = site_packages / package
         dist = dist_folder / src.name
-        print(f"Copying package {src} to {dist}")
         try:
             if src.is_file():
                 copy(src, dist)
             else:
                 copytree(src, dist, dirs_exist_ok=True)
         except Exception as e:
-            print(f"Error copying {package}: {e}")
+            pass
 
     # Copy standard library files
     for file in copied_standard_packages:
         src = site_packages.parent / file
         dist = dist_folder / src.name
-        print(f"Copying standard library {src} to {dist}")
         try:
             if src.is_file():
                 copy(src, dist)
             else:
                 copytree(src, dist, dirs_exist_ok=True)
         except Exception as e:
-            print(f"Error copying {file}: {e}")
+            pass
 
 def main():
     """Main function"""
     try:
         dist_folder = "build/main.dist"
         os.makedirs(dist_folder, exist_ok=True)
-        
+
         try:
-            print("Starting file copy...")
+            a = 1+1
         except UnicodeEncodeError:
-            print("[INFO] Starting file copy...")
-            
+            pass
+
         copy_appdata(dist_folder=dist_folder)
         copy_packages(dist_folder=dist_folder)
-        
+
         try:
-            print("File copy completed!")
+            a = 1 + 1
         except UnicodeEncodeError:
-            print("[INFO] File copy completed!")
-        
+            pass
+
     except Exception as e:
         try:
-            print(f"Error: {e}")
+            a = 1 + 1
         except UnicodeEncodeError:
-            print(f"Error: {e}")
+            pass
         exit(1)
 
 if __name__ == "__main__":
