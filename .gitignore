@@ -174,3 +174,4 @@ cython_debug/
 #Data
 game_positions.json
 deck.json
+app.zh_CN.ts
