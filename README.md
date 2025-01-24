@@ -1,8 +1,11 @@
 # B4B-Assistant
 
+[English](README_EN.md) | 简体中文
+
 B4B Assistant 是一个 BACK 4 BLOOD(喋血复仇) 游戏的卡组管理工具。它可以帮助玩家方便地导入、导出和管理游戏卡组。
 
 ## 主要功能
+注意：目前暂不支持英文
 
 * 📋 剪贴板导入卡组
 * 📷 OCR扫描导入卡组
@@ -37,8 +40,8 @@ B4B Assistant 是一个 BACK 4 BLOOD(喋血复仇) 游戏的卡组管理工具�
 * [RapidOCR](https://github.com/RapidAI/RapidOCR) - 高效的 OCR 识别引擎
 
 ## 软件截图
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](AppData/images/image.png)
+![alt text](AppData/images/image-1.png)
 
 ## 版本更新日志
 
