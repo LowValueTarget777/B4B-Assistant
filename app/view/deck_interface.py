@@ -1,5 +1,5 @@
 import time
-from PySide6.QtWidgets import QWidget, QMessageBox
+from PySide6.QtWidgets import QWidget, QMessageBox, QApplication
 from PySide6.QtCore import Qt, Signal, QThread
 from PySide6.QtGui import QPixmap, QClipboard
 from .ui.deck_ui import Ui_Deck
@@ -164,7 +164,7 @@ class DeckInterface(QWidget, Ui_Deck):
 
     def import_from_clipboard(self):
         """从剪贴板导入卡组 / Import deck from clipboard"""
-        clipboard = QClipboard()
+        clipboard = QApplication.clipboard()
         deck_str = clipboard.text()
 
         try:
@@ -273,7 +273,7 @@ class DeckInterface(QWidget, Ui_Deck):
             # 转换为字符串 / Convert to string
             deck_str = json.dumps(current_deck, ensure_ascii=False)
             # 复制到剪贴板 / Copy to clipboard
-            clipboard = QClipboard()
+            clipboard = QApplication.clipboard()
             clipboard.setText(deck_str)
             QMessageBox.information(self, self.tr("Success"), self.tr("Deck data copied to clipboard!"))
 

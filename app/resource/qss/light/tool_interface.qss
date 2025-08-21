@@ -1,0 +1,60 @@
+/* Tool Interface Light Theme Styles */
+
+QWidget#Tool {
+    background-color: #fafafa;
+}
+
+/* 标题样式 */
+TitleLabel {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* 副标题样式 */
+BodyLabel[objectName="subtitle_label"] {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+/* 卡片基础样式 */
+ElevatedCardWidget {
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* 卡片悬停效果 */
+ElevatedCardWidget:hover {
+    background-color: rgba(0, 120, 215, 0.05);
+    border: 1px solid rgba(0, 120, 215, 0.3);
+}
+
+/* 卡片标题样式 */
+SubtitleLabel {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* 卡片描述样式 */
+BodyLabel[objectName$="_desc"] {
+    font-size: 12px;
+    color: #7f8c8d;
+    line-height: 1.4;
+}
+
+/* 图标容器样式 */
+IconWidget {
+    border-radius: 24px;
+    background-color: rgba(0, 120, 215, 0.08);
+    padding: 8px;
+}
+
+/* 滚动区域样式 */
+SmoothScrollArea {
+    border: none;
+    background-color: transparent;
+}
