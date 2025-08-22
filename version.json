@@ -1,0 +1,45 @@
+{
+  "version": "v0.1.0",
+  "build_number": 1,
+  "release_date": "2025-08-22",
+  "release_notes": "初始版本发布",
+  "pre_release": false,
+  "changelog": [
+    {
+      "date": "2025-08-22 22:33:06",
+      "version": "v0.1.0",
+      "type": "improvement",
+      "description": "优化更新系统，添加版本管理器"
+    },
+    {
+      "date": "2025-08-22 00:00:00",
+      "version": "v0.1.0",
+      "type": "feature",
+      "description": "初始版本发布，包含卡牌管理、卡组构建等核心功能"
+    },
+    {
+      "date": "2025-08-22 00:00:00",
+      "version": "v0.1.0",
+      "type": "feature",
+      "description": "集成OCR识别功能，支持游戏内卡牌自动识别"
+    },
+    {
+      "date": "2025-08-22 00:00:00",
+      "version": "v0.1.0",
+      "type": "feature",
+      "description": "添加自动更新功能，支持在线检查和下载更新"
+    },
+    {
+      "date": "2025-08-22 00:00:00",
+      "version": "v0.1.0",
+      "type": "feature",
+      "description": "支持中英文界面切换"
+    }
+  ],
+  "build_info": {
+    "build_time": "",
+    "build_environment": "development",
+    "python_version": "3.11+",
+    "platform": "Windows"
+  }
+}

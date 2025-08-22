@@ -2,3 +2,5 @@ PySide6-Fluent-Widgets>=1.5.5
 rapidocr_openvino
 pywin32
 requests>=2.25.0
+Pillow
+opencv-python

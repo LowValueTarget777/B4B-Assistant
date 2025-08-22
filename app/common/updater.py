@@ -172,6 +172,8 @@ class UpdateInstaller:
             if not update_source:
                 raise Exception("无法找到更新文件中的应用程序目录")
             
+            logger.info(f"Found update source: {update_source}")
+            
             # 备份当前应用
             self._backup_current_app(backup_dir)
             
@@ -180,7 +182,8 @@ class UpdateInstaller:
             
             # 清理临时文件
             shutil.rmtree(temp_dir)
-            os.remove(zip_path)
+            if Path(zip_path).exists():
+                os.remove(zip_path)
             
             logger.info("Update installed successfully")
             return True
@@ -188,15 +191,37 @@ class UpdateInstaller:
         except Exception as e:
             logger.error(f"Failed to install update: {e}")
             # 尝试恢复备份
-            self._restore_backup(backup_dir)
+            try:
+                self._restore_backup(backup_dir)
+                logger.info("Backup restored due to installation failure")
+            except Exception as restore_error:
+                logger.error(f"Failed to restore backup: {restore_error}")
             return False
     
     def _find_app_directory(self, temp_dir: Path) -> Optional[Path]:
         """查找应用程序目录"""
-        # 查找包含 main.py 的目录
+        logger.info(f"Searching for app directory in: {temp_dir}")
+        
+        # 首先检查是否直接包含main.py（根目录就是应用目录）
+        if (temp_dir / 'main.py').exists():
+            logger.info(f"Found main.py in root: {temp_dir}")
+            return temp_dir
+        
+        # 查找包含 main.py 的子目录
         for root, dirs, files in os.walk(temp_dir):
             if 'main.py' in files:
-                return Path(root)
+                found_dir = Path(root)
+                logger.info(f"Found main.py in: {found_dir}")
+                return found_dir
+                
+        # 如果没找到main.py，尝试查找包含app目录的目录
+        for root, dirs, files in os.walk(temp_dir):
+            if 'app' in dirs:
+                found_dir = Path(root)
+                logger.info(f"Found app directory in: {found_dir}")
+                return found_dir
+                
+        logger.warning("Could not find application directory in update package")
         return None
     
     def _backup_current_app(self, backup_dir: Path):
@@ -216,19 +241,54 @@ class UpdateInstaller:
     
     def _copy_update_files(self, source: Path, dest: Path):
         """复制更新文件"""
+        logger.info(f"Copying update files from {source} to {dest}")
+        
+        # 要跳过的文件和目录
+        skip_items = {
+            'AppData',      # 用户数据，不要覆盖
+            'logs',         # 日志文件
+            '.venv',        # 虚拟环境
+            'venv',         # 虚拟环境
+            '__pycache__',  # Python缓存
+            '.git',         # Git仓库
+            '.gitignore',   # Git忽略文件
+            'backup',       # 备份目录
+            'temp_update',  # 临时更新目录
+            'temp',         # 临时目录
+            'build',        # 构建目录
+            'dist',         # 分发目录
+            '.idea',        # IDE配置
+            '.vscode',      # VSCode配置
+            'node_modules', # Node模块
+            '*.pyc',        # Python编译文件
+            '*.pyo',        # Python优化文件
+            '*.log',        # 日志文件
+        }
+        
         for item in source.iterdir():
-            dest_item = dest / item.name
-            
-            # 跳过某些文件和目录
-            if item.name in ['AppData', 'logs', '.venv', '__pycache__', '.git']:
+            # 跳过指定的文件和目录
+            if item.name in skip_items:
+                logger.info(f"Skipping: {item.name}")
                 continue
                 
-            if item.is_dir():
-                if dest_item.exists():
-                    shutil.rmtree(dest_item)
-                shutil.copytree(item, dest_item)
-            else:
-                shutil.copy2(item, dest_item)
+            dest_item = dest / item.name
+            
+            try:
+                if item.is_dir():
+                    # 如果是目录，递归复制
+                    if dest_item.exists():
+                        logger.info(f"Removing existing directory: {dest_item}")
+                        shutil.rmtree(dest_item)
+                    logger.info(f"Copying directory: {item.name}")
+                    shutil.copytree(item, dest_item)
+                else:
+                    # 如果是文件，直接复制
+                    logger.info(f"Copying file: {item.name}")
+                    shutil.copy2(item, dest_item)
+            except Exception as e:
+                logger.error(f"Failed to copy {item.name}: {e}")
+                # 继续复制其他文件，不要因为单个文件失败而停止整个更新
+                continue
     
     def _restore_backup(self, backup_dir: Path):
         """恢复备份"""
